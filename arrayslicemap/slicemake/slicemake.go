@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	s := make([]int, 10)
@@ -17,4 +19,5 @@ func main() {
 	//a capacidade do slice  auto ajusta
 	s = append(s, 1)
 	fmt.Println(s, len(s), cap(s))
+
 }
